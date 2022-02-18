@@ -2,6 +2,7 @@ const socket = io();
 const welcome = document.getElementById("welcome");
 const form = welcome.querySelector("form");
 const room = document.getElementById("room");
+
 room.hidden = true;
 
 let roomName;
