@@ -3,6 +3,7 @@ const welcome = document.getElementById("welcome");
 const form = welcome.querySelector("form");
 const room = document.getElementById("room");
 
+
 room.hidden = true;
 
 let roomName;
@@ -37,6 +38,10 @@ function handleRoomSubmit(event) {
   event.preventDefault();
   const input = form.querySelector("input");
   socket.emit("enter_room", input.value, showRoom);
+  const ul = room.querySelector("ul");
+  const li = document.createElement("li");
+  li.innerText = `Welcome :)`;
+  ul.appendChild(li);
   roomName = input.value;
   input.value = "";
 }

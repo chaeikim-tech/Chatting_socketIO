@@ -1,0 +1,55 @@
+@import 'reset.css';
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+header {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#welcome h4,
+#room h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+#room ul {
+  display: block;
+  margin: 15px 0;
+  width: 80vw;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#room ul li {
+  padding: 5px;
+  font-weight: 500;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 13px;
+  background-color: #91c483;
+  font-weight: 600;
+}
+
+button {
+  margin-left: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffe162;
+  font-size: 12px;
+  font-weight: 600;
+}
