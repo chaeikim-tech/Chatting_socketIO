@@ -6,8 +6,7 @@ Chatting_socketIO using NodeJS, WebRTC and Websockets.
 ### Preview
 
 
-<span><img src="./src/public/images/preview.JPG" width="320" height="570"/></span>
-<span><img src="./src/public/images/preview1.JPG" width="320" height="570"/></span>
+<div><img src="./src/public/media/Small_Talk.gif" width="70%" /></div>
 
 
 ### Pages
